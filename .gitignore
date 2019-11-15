@@ -134,6 +134,10 @@ pip-selfcheck.json
 # End of https://www.gitignore.io/api/python
 
 # Custom
+weights/*
+!weights/sample_weights
+data/*
+!data/input
 .DS_Store
 .idea
 log_file
@@ -147,3 +151,7 @@ mkdocs/docs/predict/
 mkdocs/docs/assistant.md
 mkdocs/docs/utils/
 mkdocs/docs/train/
+.gitignore
+*private
+*rdsn.py
+*rrdsn.py
